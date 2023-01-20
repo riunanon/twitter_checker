@@ -1,10 +1,13 @@
-# twitter_checker
-Username,Email and PhoneNumber available checker.
-
+# twittter_checker
+Username and Email available checker.
 ```
-git clone https://github.com/riunanon/twitter_checker.git
+git clone https://github.com/riunanon/twittter_checker.git
 ```
 ```py
 from twitter_checker import twitter
-twitter.email_check('mail@ex)
+twitter.email_check('mail@example.com')
+twitter.username_check('example')
+
+#if response is 'True',it's availabel.
+#if it's 'False', it is not available.
 ```
