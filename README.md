@@ -11,3 +11,13 @@ twitter.username_check('example')
 #if response is 'True',it's availabel.
 #if it's 'False', it is not available.
 ```
+example
+```py
+response=twitter.email_check('test@example.com')
+print(response)
+#>>>True
+if response:
+    print('availabel!') #True
+else:
+    print('not availabel...') #False
+```
