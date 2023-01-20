@@ -1,4 +1,4 @@
-# twittter_checker
+# twitter_checker
 Username,Email and PhoneNumber available checker.
 
 ```
