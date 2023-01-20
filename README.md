@@ -5,7 +5,7 @@ $ git clone https://github.com/riunanon/twitter_checker.git
 ```
 ```py
 from twitter_checker import twitter
-twitter.email_check('mail@example.com')
+   twitter.email_check('mail@example.com')
 twitter.username_check('example')
 
 #if response is 'True',it's availabel.
@@ -20,4 +20,5 @@ if response:
     print('availabel!') #True
 else:
     print('not availabel...') #False
+#>>>availabel!
 ```
