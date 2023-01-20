@@ -1,7 +1,7 @@
 # twittter_checker
 Username and Email available checker.
 ```
-git clone https://github.com/riunanon/twittter_checker.git
+git clone https://github.com/riunanon/twitter_checker.git
 ```
 ```py
 from twitter_checker import twitter
