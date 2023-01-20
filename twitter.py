@@ -14,11 +14,3 @@ def username_check(username):
         return True
     else:
         return False
-
-def phonenumber_check(phonenumber):
-    url='https://api.twitter.com/i/users/phonenumber_available.json?phonenumber='+phonenumber
-    response=requests.get(url).json()
-    if response['valid']:
-        return True
-    else:
-        return False
